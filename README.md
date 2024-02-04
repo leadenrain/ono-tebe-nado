@@ -1,1 +1,1 @@
-git@github.com:leadenrain/ono-tebe-nado.git
+https://github.com/leadenrain/ono-tebe-nado.git
