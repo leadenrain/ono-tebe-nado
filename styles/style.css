@@ -47,6 +47,7 @@ header .menu {
     display: flex;
     position: relative;
     background-image: url(../images/cover.jpg);
+    background-size: cover;
     margin-bottom: 156px;
     padding-bottom: 757px;
 }
