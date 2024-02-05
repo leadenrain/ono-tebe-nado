@@ -2,19 +2,19 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
   <header class="header">
     <nav class="header__menu">
-      <ul type="circle" class="menu">
+      <ul class="menu">
         <li class="menu-item menu-item-active">
           <a class="menu-item-link">главная</a>
         </li>
@@ -27,59 +27,60 @@
       </ul>
     </nav>
     <div class="header__logo">
-      <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип"></img>
-      </a>
+      <a href="#"><img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип"></a>
     </div>
-    <div class="contacts">
-      <a class="contacts-tel" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-      <a class="contacts-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p class="contacts-address">наб. Принсенграхт 263-<br />265, Амстердам</p>
-    </div>
+    <address class="contacts">
+      <a class="telephone" href="tel:+99995555555"><span>+9</span><span>999</span><span>555</span><span>5555</span></a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <p>наб. Принсенграхт 263-</p>
+      <p>265, Амстердам</p>
+    </address>
   </header>
 
   <main class="content">
-
     <section class="major">
-
       <div class="major__background">
-        <img class="major__background-image" src="./images/cover.jpg">
-        <div class="major__overlay overlay"></div>
+        <img class="major__background-image" src="./images/cover.jpg" alt="Лотосы">
+        <div class="overlay"></div>
       </div>
       <div class="major__content">
         <h1 class="major__title">
-          <span class="major__title-accent">оно</span>
-          <span class="major__title-accent text-center">тебе</span>
-          <span class="major__title-accent text-right">надо</span>
+          <span class="major__title-left">он<span>о</span></span>
+          <span class="major__title-center">теб<span>е</span></span>
+          <span class="major__title-right"><span>н</span>адо</span>
         </h1>
         <div class="major__footer">
           <p class="major__footer-subline">Аукцион вещей, в которые никто не верил</p>
-          <a class="major__footer-button" href="#">Сделать ставку</a>
+          <button class="major__footer-button">Сделать ставку</button>
         </div>
       </div>
     </section>
 
     <section class="lots">
       <h2 class="lots__title">Лоты</h2>
-      <div class="lots__card lots__card-1">
+      <a class="lots__card lots__card-left" href="#0">
+        <div class="overlay"></div>
         <h3 class="lots__card-title">Фильм режиссёра, который бросил киношколу</h3>
         <p class="lots__card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
           знали, что режиссёр —
           Пол Томас Андерсон?</p>
-      </div>
-      <div class="lots__card lots__card-2">
+      </a>
+      <a class="lots__card lots__card-center" href="#0">
+        <div class="overlay"></div>
         <h3 class="lots__card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
         <p class="lots__card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
           древнеанглийский. В ней
           одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это
           всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-      </div>
-      <div class="lots__card lots__card-3">
+      </a>
+      <a class="lots__card lots__card-right" href="#0">
+        <div class="overlay"></div>
         <h3 class="lots__card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
         <p class="lots__card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
           инфузорию-туфельку. Никаких
           полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных
           работ Кандинского?</p>
-      </div>
+      </a>
       <div class="lots__footer">
         <p><a class="lots__footer-link" href="#0">посмотреть больше</a></p>
       </div>
@@ -107,13 +108,14 @@
   </main>
 
   <footer class="footer">
-    <div class="contacts">
-      <a class="contacts-tel" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-      <a class="contacts-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p class="contacts-address">наб. Принсенграхт 263-<br />265, Амстердам</p>
-    </div>
-    <nav class="menu-vertical">
-      <ul type="circle" class="footer__menu-list">
+    <address class="contacts">
+      <a class="telephone" href="tel:+99995555555"><span>+9</span><span>999</span><span>555</span><span>5555</span></a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <p>наб. Принсенграхт 263-</p>
+      <p>265, Амстердам</p>
+    </address>
+    <nav class="footer__menu">
+      <ul class="menu">
         <li class="menu-item menu-item-active">
           <a class="menu-item-link">главная</a>
         </li>
@@ -126,9 +128,9 @@
       </ul>
     </nav>
     <div class="socials">
-      <a class="socials__link" href="#"><img class="socials__icon" src="./images/yt.svg"></a>
-      <a class="socials__link" href="#"><img class="socials__icon" src="./images/vk.svg"></a>
-      <a class="socials__link" href="#"><img class="socials__icon" src="./images/pinterest.svg"></a>
+      <a class="socials__link" href="#"><img class="socials__icon" src="./images/yt.svg" alt="Ютуб"></a>
+      <a class="socials__link" href="#"><img class="socials__icon" src="./images/vk.svg" alt="Вконтакте"></a>
+      <a class="socials__link" href="#"><img class="socials__icon" src="./images/pinterest.svg" alt="Пинтерест"></a>
     </div>
   </footer>
 
