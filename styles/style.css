@@ -40,35 +40,20 @@ header .menu {
     font-size: 18px;
     font-style: normal;
     line-height: 1.33;
-    padding-left: 102px;
-    padding-top: 5px;
-}
-
-.telephone {
-    letter-spacing: 1px;
+    padding: 5px 0 0 102px;
 }
 
 .major {
     display: flex;
     position: relative;
+    background-image: url(../images/cover.jpg);
     margin-bottom: 156px;
-    padding-bottom: 50px;
-}
-
-.major__background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.major__background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    padding-bottom: 757px;
 }
 
 .major__content {
+    position: absolute;
+    z-index: 1;
     width: 100%;
     padding-top: 166px;
     padding-left: 40px;
@@ -81,6 +66,7 @@ header .menu {
     line-height: 1.15;
     text-transform: uppercase;
     margin-bottom: 127px;
+    white-space: nowrap;
 }
 
 .major__title-left {
@@ -89,8 +75,9 @@ header .menu {
     margin-left: 9px;
 }
 
-.major__title-left span {
+.major__title-left-space {
     margin-left: 25px;
+    letter-spacing: 66px;
 }
 
 .major__title-center {
@@ -101,7 +88,7 @@ header .menu {
     margin-right: 69px;
 }
 
-.major__title-center span {
+.major__title-center-space {
     margin-left: 31px;
 }
 
@@ -110,11 +97,11 @@ header .menu {
     text-align: right;
     letter-spacing: 30px;
     margin-top: 5px;
-    margin-right: 21px;
+    margin-right: 20px;
 }
 
-.major__title-right span {
-    margin-right: 27px;
+.major__title-right-space {
+    margin-left: 28px;
 }
 
 .major__footer {
@@ -164,8 +151,8 @@ header .menu {
     background-repeat: no-repeat;
     background-position: center;
     color: #FFFFFF;
-    text-decoration: none;
     padding: 28px 39px;
+    text-decoration: none;
 }
 
 .lots__title {
@@ -179,15 +166,15 @@ header .menu {
     margin-left: 40px;
 }
 
-.lots__card-left {
+.lots__card-anderson {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots__card-center {
+.lots__card-joyce {
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__card-right {
+.lots__card-kandinsky {
     background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -197,6 +184,7 @@ header .menu {
     font-size: 22px;
     line-height: 1.2;
     text-transform: uppercase;
+    text-decoration: underline;
     margin-top: 22px;
 }
 
@@ -273,7 +261,7 @@ footer .contacts {
 }
 
 footer .menu {
-    padding: 7px 0 0 48px;
+    padding: 9px 0 0 48px;
     margin-right: 73px;
 }
 
